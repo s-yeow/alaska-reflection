@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Listening For It — Reflections on Alaska</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --paper: #f5f1eb;
+    --muted: #6b6259;
+    --accent: #2c4a3e;
+    --rule: #c9bfb0;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Lora', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.75;
+  }
+  .hero {
+    height: 70vh;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 30%, rgba(44,74,62,0.92));
+    z-index: 1;
+  }
+  .hero img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero-text {
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    z-index: 2;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 2rem 3rem;
+  }
+  .hero h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 600;
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    color: var(--paper);
+    line-height: 1.15;
+    margin-bottom: 0.5rem;
+  }
+  .hero .subtitle {
+    color: #c9bfb0;
+    font-size: 0.95rem;
+    font-style: italic;
+  }
+  .essay {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3rem 2rem 5rem;
+  }
+  .essay p { margin-bottom: 1.4rem; }
+  .section-break {
+    text-align: center;
+    margin: 2.5rem 0;
+    color: var(--muted);
+    font-size: 1.2rem;
+    letter-spacing: 0.5em;
+  }
+  figure { margin: 2.5rem -1rem; }
+  figure img { width: 100%; display: block; border-radius: 2px; }
+  figcaption {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: 0.6rem;
+    padding: 0 1rem;
+    font-style: italic;
+    line-height: 1.5;
+  }
+  .photo-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin: 2.5rem -1rem;
+  }
+  .photo-pair figure { margin: 0; }
+  .pull-quote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--accent);
+    border-left: 3px solid var(--accent);
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    margin: 2.5rem 0;
+    line-height: 1.4;
+  }
+  .byline {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  @media (max-width: 600px) {
+    .photo-pair { grid-template-columns: 1fr; }
+    figure { margin: 2rem 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <img src="images/walkthroughforestbeforeplunge.jpeg" alt="Sunset over Auk Bay">
+  <div class="hero-text">
+    <h1>Listening For It</h1>
+    <p class="subtitle">A Hybrid Photo Essay &amp; Reflection · ART 481: Southeast Alaska, March 8–13, 2026</p>
+  </div>
+</div>
+
+<div class="essay">
+
+<p>My hopes coming to Alaska were threefold. I wanted to gain a deeper understanding of Tlingit culture, practices, and the importance of these belongings — to see them not as artifacts behind glass but as living things with histories and obligations. Through that, I sought to know Alaska and its landscape, both through personal experience and through its history as the ancestral lands of Indigenous communities who have lived here for thousands of years. And finally, I sought to engage in critical conversations from the unique perspective of Princeton's intertwined relationship with this place — together with peers, experts, and friends from the University of Alaska Southeast. Over six days, I found that these three threads were never separate. Every conversation about belongings led back to the land; every encounter with the land led back to questions about who has the right to hold, to tell, to keep.</p>
+
+<div class="section-break">· · ·</div>
+
+<figure>
+  <img src="images/haidapolebywhaleprojectpark.jpeg" alt="Totem pole near Whale Project Park with mountain backdrop">
+  <figcaption>A totem pole near Whale Project Park, Juneau — one of several along the Kootéeyaa Deiyí (Totem Pole Trail). The mountain behind it is inseparable from the pole's meaning.</figcaption>
+</figure>
+
+<p>On March 8, we landed in Juneau and walked back from Mourant Hall along a path I would walk several times that week. On this first pass, I noticed a totem pole I had somehow missed on the way in. It felt like a signal — that I would need to slow down and look more carefully in this place, that things here carry meaning that does not announce itself to the casual viewer. At Whale Project Park, a whale sculpture with the Big Dipper constellation carved into its body stood with its back to the water and the mountains. In New Jersey, I would see a sculpture; here, the sculpture was continuous with the landscape behind it. The distance between symbol and land, which I had only read about in class, collapsed. Nearby, the Haida Raven totem pole by master artist TJ Young stood among several others along the trail, its figures — Raven, Butterfly, Wolf, Killer Whale, Bear, and a Supernatural Being — each representing clan crests acquired through encounters with spiritual beings. The Haida believe that everything has a spirit, including the sun, moon, and stars. Standing in front of the pole, I felt I was beginning to understand what that means: not as a belief system to be studied, but as a way of being in a world where nothing is inert.</p>
+
+<p>That evening we watched <em>Pueblo Revolt</em> at Perseverance Theater — a production about Indigenous resistance that set the stage for the conversations about cultural survival and the refusal to disappear that would define our week.</p>
+
+<div class="section-break">· · ·</div>
+
+<p>Jerrick Hope-Lang's lecture on March 9 was the intellectual and emotional center of the trip. He traced the journey of K'alyaan's Raven Helmet from the 1804 Battle of Sitka — where his ancestor wore it defending Lingít Aaní at Shís'gi Noow — through the Russian fur trade, the Alaska Purchase, the Presbyterian boarding schools run by Sheldon Jackson, and over a century of separation, to the Sitka Tribe of Alaska's refiled NAGPRA claim in 2025. What made the lecture so powerful was that it was not only a history lesson. Jerrick spoke about his mother's experience in the boarding schools. He mourned the loss of his culture openly and described the daily work of trying to get it back. With fewer than one hundred Tlingit speakers remaining, the stakes are not abstract. He described the shamanic items held at Princeton — not as curiosities or even as "art," but as belongings that carry spiritual power, that are part of the community's DNA. The concept of <em>at.óow</em> — sacred clan property held for future generations — reframed everything I thought I knew about museum collections. Under this framework, no single person can possess these items; they belong to the clan across time. The Sheldon Jackson Museum's claim of right of possession was challenged precisely because church archives contained no written documentation supporting it.</p>
+
+<figure>
+  <img src="images/froghatandotheritemsbroughtbyjerrick.jpeg" alt="Tlingit ceremonial items on table">
+  <figcaption>Belongings shown during Jerrick Hope-Lang's lecture — including the frog hat and other ceremonial items. Not utilitarian objects; as Jerrick described them, part of their DNA.</figcaption>
+</figure>
+
+<p>Jerrick also showed us a contemporary piece by Tommy Joseph, commissioned by an Eagle clan member for her ancestor. He spoke about the objects being placed back into the Sheldon Jackson Museum under Indigenous narratives — a reframing of the museum's own space. His closing image stayed with me: a hammer, once a tool of war wielded against his people, now taken up as a way to continue onward. "Every tool is a weapon if you hold it right." When he asked, "What happens when we are separated from the people?" the question was not rhetorical. You lose history when things are passed down orally and the chain is broken. Part of the healing is for the things to come back — but also figuring out how to honor and use them the way they are meant to be used when that knowledge has been disrupted. This is a question that NAGPRA alone cannot answer.</p>
+
+<div class="photo-pair">
+  <figure>
+    <img src="images/eagleseenonwalkbeforeplunge.jpeg" alt="Bald eagle in snowy tree">
+    <figcaption>A bald eagle spotted on our walk through the forest at Auk Rec — one of many reminders of the landscape these belongings come from.</figcaption>
+  </figure>
+  <figure>
+    <img src="images/aukbayviews.jpeg" alt="Auk Bay snow and water">
+    <figcaption>The view from Auk Bay. The land itself is a text here — one I was only beginning to learn how to read.</figcaption>
+  </figure>
+</div>
+
+<p>After the lecture, we went to the Native and Rural Student Center to meet with Kolene James and UAS students. This was the moment that most directly challenged how I think about identity. Students introduced themselves in Tlingit, naming their clans and the people who came before them. I had never introduced myself that way. At Princeton, we introduce ourselves through what we do — our major, our year, our extracurriculars. Here, the introduction was genealogical and relational: you are placed within a web of clan, land, and ancestors before you ever say your own name. It made me realize how much the Western university, and by extension the Western museum, strips away when it assigns an accession number to an object. If the Princeton University Art Museum is one system of signs and meanings — one that organizes belongings by date, material, and provenance — the Tlingit introduction is another system entirely, one that tells you who these items belong to, what obligations they carry, and whose voices should be centered in decisions about their care. We made tea from locally gathered nettle and mint, and I saw students actively reconnecting with their culture and language. That reconnection is itself a form of repair that sits outside any legal framework.</p>
+
+<p>At Auk Rec, we built a fire, walked the forest, and spotted wildlife — including a bald eagle in the snow-covered trees — before participating in a cold plunge. I had never done anything like it. The UAS students who guided us told us about the practice's meaning in the context of Tlingit warriors and tradition, and doing it alongside them, rather than reading about it, made the experience feel earned rather than touristic. That evening, Kolene and Lyle James told us a story. Afterward, they explained the stipulations: in Tlingit oral tradition, stories are given to those who are <em>listening for</em> them, not merely <em>listening to</em> them. If the storyteller pauses, you must be able to tell them exactly where they stopped. You must be deserving to hear it. And you must be able to retell it exactly. This is a system of knowledge transmission with its own rigorous standards, entirely different from the university model of open access. It made me think that Princeton's stewardship of the Sheldon Jackson collection cannot simply be about making objects available for study. It must also ask: what responsibilities come with holding these things, and who should be centered in decisions about how they are shown, stored, and understood?</p>
+
+<div class="section-break">· · ·</div>
+
+<figure>
+  <img src="images/beadedwork.jpeg" alt="Beaded hide with floral patterns">
+  <figcaption>Beaded works from Interior Alaska in the conservation lab at the Alaska State Museum. Glass beads were traded through Russia; others came through colonial exchange. The color and type of bead help date the work.</figcaption>
+</figure>
+
+<p>On March 10, at the Alaska State Museum's object conservation lab, we were shown beaded works from Interior and Southeast Alaska. The conservator explained crystallization — how alkaline salts released from older, unstable beads cause them to become brittle and break — as well as attachment issues and bug infestations where material had been eaten away. What struck me most was the guiding principle: "make it whole, make it beautiful, because that is what the ancestors would have wanted." This is a philosophy of care that extends well beyond NAGPRA's legal mechanisms. When I asked how the spirit of an object is helped to move in the process of remaking, the answer was the transfer ceremony — the idea that something is put to rest and something new replaces it, most commonly for personal belongings like beadwork. This practice grapples with questions NAGPRA does not: how do you honor the spiritual life of an object even as its physical form deteriorates?</p>
+
+<div class="photo-pair">
+  <figure>
+    <img src="images/chillkatrobestorageroomalaskamuseum.jpeg" alt="Chilkat robe and tunic in storage">
+    <figcaption>A Chilkat robe and tunic in the museum's storage room. UAS students described their ceremonial use with an expertise no wall label could replicate.</figcaption>
+  </figure>
+  <figure>
+    <img src="images/tlingitbelongingsinmuseumsstorage.jpeg" alt="Carved staffs in storage">
+    <figcaption>The collection processing room. The frog hat Jerrick had shown us the day before was stored here — in a different context entirely.</figcaption>
+  </figure>
+</div>
+
+<p>In the storage room, we saw the Chilkat robe from 1948, the tunic worn at the last potlatch in Sitka in 1904, and the frog hat Jerrick had shown us the day before. These items, though housed in a museum, are still frequently checked out for ceremonial use — the Chilkat, the tunic, and the frog hat are the most commonly requested. Some clans even opt to store belongings here by choice. The boundary between museum and living culture was far more porous than I had imagined from campus. Hearing UAS students describe these works and their uses — with an expertise and intimacy that no wall label could replicate — reinforced that the knowledge needed to care for these items does not reside in conservation labs alone. It resides in the communities they come from.</p>
+
+<figure>
+  <img src="images/chairwithovoid.jpeg" alt="Chair back with subtle ovoid carvings">
+  <figcaption>A wooden chair in storage. At first glance, unremarkable — but closer looking reveals thin carves of a repeated ovoid pattern. It taught me that I was still learning how to see.</figcaption>
+</figure>
+
+<p>There were also objects that required deeper looking. One wooden chair appeared entirely unremarkable at first glance. It was only when I looked more carefully that I noticed the thin carves of a repeated ovoid pattern across the back — a design vocabulary I was just beginning to recognize. This small moment encapsulated something about the entire trip: place-based learning does not only give you new information. It teaches you how to look. In a seminar room at Princeton, I might have read about Northwest Coast ovoid forms. Here, standing in front of a chair that did not announce itself as art, I had to find them myself.</p>
+
+<div class="photo-pair">
+  <figure>
+    <img src="images/clanhouseatSEALASKA.jpeg" alt="Sealaska Heritage Institute clan house interior">
+    <figcaption>Inside the clan house at the Sealaska Heritage Institute. We entered backwards — a gesture of peace.</figcaption>
+  </figure>
+  <figure>
+    <img src="images/chillkatinSEALASKA.jpeg" alt="Chilkat robe at Sealaska">
+    <figcaption>A Chilkat robe at Sealaska. These robes are welcomed home through ceremony — the spirit awakened upon return.</figcaption>
+  </figure>
+</div>
+
+<p>After lunch, we visited the Sealaska Heritage Institute and entered a clan house — an experience made especially meaningful by Jerrick's earlier descriptions. Emily Galgano showed us Chilkat pieces that had been welcomed home through ceremony. This was the practice that resonated with me most deeply. Unlike a NAGPRA repatriation, which is a legal transfer of ownership, the Sealaska welcome home ceremony awakens the spirit of the robe upon its return. Even a brittle whale Chilkat was danced. One robe had been found listed for sale online — to the seller, it was just a blanket. When Sealaska staff explained its significance, the seller returned it. This gap between perception — an ordinary blanket, a decorative throw — and reality — a living object with spirit, clan history, and ceremonial power — is precisely the gap that place-based learning helped me begin to close. It is also a gap that the Princeton Art Museum must contend with: these items may look like objects, but they are not objects to the people they belong to.</p>
+
+<div class="section-break">· · ·</div>
+
+<figure>
+  <img src="images/heritagecentersealandkillerwhale.jpeg" alt="Ancient totem poles at Heritage Center">
+  <figcaption>Unrestored poles at the Totem Heritage Center, Ketchikan — some of the oldest in Alaska. The wood is weathered, the figures still present.</figcaption>
+</figure>
+
+<p>March 12 — the day trip to Ketchikan — was the most fulfilling day. At the Totem Heritage Center, we stood before some of the oldest unrestored totem poles in Alaska. The Brown Bear and Killer Whale memorial pole depicted a bear distinguished by flaring nostrils and sharp claws, with a killer whale swimming downward beneath it, a human face on its tail representing the center of the animal's strength. The mortuary pole told the story of Stone Ribs, the Haida warrior who transformed into a sea lion to escape the Killer Whale people and return to his community. The guide's protocol reinforced what Lyle and Kolene had taught us: if they leave and stop, you must be able to tell them exactly where they stopped. You must be deserving to hear the story. And you must be able to retell it exactly. This is not casual storytelling. It is a disciplined system of knowledge with standards as rigorous as any academic citation practice — perhaps more so, because the stakes are the survival of the story itself.</p>
+
+<figure>
+  <img src="images/ketchikanairportart.jpeg" alt="Large Northwest Coast formline art panel">
+  <figcaption>Northwest Coast formline art — the bold ovoids and interlocking figures that I was learning to recognize throughout the week. Art here is identity, not decoration.</figcaption>
+</figure>
+
+<p>At the Tongass Historical Museum, a cedar sculpture made of individual salmon — "we all build each other up" — captured the centrality of cedar and community to this place. I also got to try weaving and felt immediately how labor-intensive the work is, how many hours a single piece demands. The Chilkat robes I had seen all week took on a different weight once my hands understood, even briefly, what it takes to make them. Later, we saw the Chief Johnson totem pole — one of the most photographed in Alaska — standing in downtown Ketchikan, not in a museum but in the fabric of the town.</p>
+
+<figure>
+  <img src="images/chiefjohnsontotempole.jpeg" alt="Chief Johnson totem pole in Ketchikan">
+  <figcaption>The Chief Johnson totem pole in downtown Ketchikan. It stands not in a museum but in the daily life of the town.</figcaption>
+</figure>
+
+<div class="photo-pair">
+  <figure>
+    <img src="images/sewardshamepoleandclanhouse.jpeg" alt="Seward Shame Pole and clan house at Saxman">
+    <figcaption>The Seward Shame Pole at Saxman Totem Park, with the clan house behind it. A countermonument that refuses to let colonial debts fade.</figcaption>
+  </figure>
+  <figure>
+    <img src="images/nathanjacksonworkshopfrogheadsaxmansign.jpeg" alt="Nathan Jackson workshop at Saxman">
+    <figcaption>Inside Nathan Jackson's workshop at Saxman. Living culture being made, not just preserved.</figcaption>
+  </figure>
+</div>
+
+<p>At Saxman, we met master carver Nathan Jackson and learned that Princeton holds his Raven and Fog Woman totem pole — a connection I had not fully appreciated before the trip. But the most powerful moment was standing in front of the Seward Shame Pole. Earlier in the semester, we had studied its three iterations: the 1880s original erected at Tongass Village to publicly shame William Seward for failing to reciprocate the potlatch and gifts given by Chief Ebbets; the 1941 CCC replica, ironically produced with federal funding; and Stephen Jackson's 2017 re-carving, which updates the portrait with pointed symbolism and explicitly resists easy reconciliation. I understood the pole intellectually as a countermonument — a work that keeps colonial debts visible in public memory, challenging celebratory monument-making around the Alaska Purchase. But seeing it in person, with the painted clan house behind it and the forest surrounding it, made the argument physical in a way no reading could. The Seward figure at the top, clutching his hat, looked small against the sky. This is what place-based learning does: it moves knowledge from the page into the body.</p>
+
+<div class="section-break">· · ·</div>
+
+<figure>
+  <img src="images/mendenhallglacier.jpeg" alt="Mendenhall Glacier">
+  <figcaption>Mendenhall Glacier on March 13 — visibly receded from the visitor center over just a few decades. Stewardship of culture and stewardship of land are inseparable.</figcaption>
+</figure>
+
+<p>On our final day, Jason Fellman led us to Mendenhall Glacier, where the retreat of the ice over just a few decades was starkly visible. I was glad the trip included this environmental element — a reminder that the land itself is changing, and that any conversation about stewardship of culture must also be a conversation about stewardship of place. That afternoon, we screened Wayne Price's film about leading youth in building a dugout canoe. Watching the young people learn the craft — making every mistake along the way — and then take the canoe out on the water was deeply moving. The film carried broader implications about sobriety, about how cultural reconnection can heal damage that colonialism inflicted not just on objects but on people. Even the master carver had needed to learn by making mistakes, because the chain of direct transmission had been broken. Price has also carved several healing totems. The process of cultural craft — carving, weaving, speaking the language, telling the stories — emerged not as a product of healing but as the healing itself.</p>
+
+<p>The closing panel, with Jerrick, Lyle, Wayne, Kolene, and others, felt like the culmination of everything we had experienced. Jerrick returned to the boarding schools, to his mother's story. Kolene described her direct work with students on campus, the daily effort of keeping culture alive. There was a discussion about form and media that I found particularly compelling: Price's film used cameras and editing to preserve a culture rooted in oral tradition. Is that a contradiction? The panelists did not think so. If the culture is meant to be spread and kept alive, adaptation is not betrayal — it is survival. I also particularly enjoyed hearing what Kolene is doing with her work directly with students at UAS, and the ways that cultural reconnection happens not through grand gestures but through daily practice.</p>
+
+<div class="pull-quote">"Make it whole, make it beautiful — that is what the ancestors would have wanted."</div>
+
+<p>Before this trip, I thought of the Sheldon Jackson collection primarily as a problem to be solved — a question of repatriation policy, NAGPRA timelines, institutional negotiation. I still think those legal frameworks matter. But I now understand that the work extends far beyond them. The welcome home ceremony at Sealaska, the transfer ceremony in the conservation lab, the oral tradition protocols, the cold plunge with UAS students, the introductions in Tlingit — these are practices of healing, repair, and reparation that sit adjacent to NAGPRA, and in many ways go deeper. NAGPRA provides a mechanism for return. These practices ask what it means to return something when the knowledge of how to use it has been disrupted; what it means to hold something when you do not know the full weight of what it carries. If the Princeton Art Museum is one system of signs — one that privileges written labels, glass cases, and climate-controlled storage — the trip revealed other systems entirely: the clan introduction that places an object within a living genealogy; the ceremony that awakens a robe's spirit; the oral tradition that guards knowledge through discipline rather than open access; the conservation ethic that asks not just how to preserve an object but how to honor the intention behind it. These are not supplementary perspectives to footnote alongside the museum's. They are the primary frameworks through which these belongings have meaning, and any model of stewardship that does not center them is incomplete.</p>
+
+<p>I came to Alaska hoping to understand Tlingit culture, to know this landscape, and to have conversations that Princeton alone could not offer. What I found was that these are not three separate things. The belongings are the landscape; the landscape holds the stories; the stories demand the kind of attention that oral tradition teaches — not listening <em>to</em>, but listening <em>for</em>. That distinction, more than anything, is what I am bringing back to my academic work: a commitment to approach these questions not as a researcher extracting knowledge, but as someone trying to be worthy of receiving it.</p>
+
+<p class="byline">ART 481 — Reflection Assignment · April 2026</p>
+
+</div>
+</body>
+</html>
